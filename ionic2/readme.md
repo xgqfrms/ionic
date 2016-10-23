@@ -1,51 +1,36 @@
-# Ionic 2
+# Ionic 2 (v2.1.1)
 
-ionic2 + angularjs 2
-
-
-[]()
+> ionic2 + angularjs 2
 
 
-## Ionic 2 (v2.1.1)
+
+## Installing Ionic
 
 ```sh
 # Ionic CLI and Cordova
 $ npm install -g ionic cordova 
 
-
 $ ionic start cutePuppyPics --v2
 
 $ cd cutePuppyPics
 
+# run app in the browser (for initial development test)
 $ ionic serve
 
+# run on a device or simulator
+$ ionic run ios
+# or
+$ ionic run android
+# or
+$ ionic run browser
+
+# Test and share app on device with Ionic View: 
+# http://view.ionic.io/
 ``` 
-
-```sh
-# ionic v1
-
-# step1: Install Ionic
-$ npm install -g cordova ionic
-
-# step2: Start a project
-$ ionic start myApp blank 
-
-$ ionic start myApp tabs 
-
-$ ionic start myApp sidemenu
-
-# Run it
-cd myApp
-ionic platform add ios
-ionic build ios
-ionic emulate ios
-
-``` 
-
-
-## Platform Guides
 
 ```code
+# Platform Guides
+
 For those building native apps for iOS and Android (most of you!), each platform has certain features and installation requirements before you can get the most out of your Ionic and Cordova development.
 
 For iOS developers, take a look at the 
@@ -56,6 +41,24 @@ For Android developers, take a look at the
 [Cordova Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/) 
 and follow the instructions to install the SDK and/or Android Studio to start building apps for Android.
 ``` 
+
+
+## Ionic 2 Tutorial
+
+[Ionic 2 Tutorial](http://ionicframework.com/docs/v2/getting-started/tutorial/)
+
+
+### ionic start
+
+
+
+
+
+
+
+
+
+
 
 
 
